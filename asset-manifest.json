@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/conding-ninja-events-page-replica/static/css/main.207bd030.chunk.css",
+    "main.js": "/conding-ninja-events-page-replica/static/js/main.80ab4a88.chunk.js",
+    "main.js.map": "/conding-ninja-events-page-replica/static/js/main.80ab4a88.chunk.js.map",
+    "runtime-main.js": "/conding-ninja-events-page-replica/static/js/runtime-main.b9352e11.js",
+    "runtime-main.js.map": "/conding-ninja-events-page-replica/static/js/runtime-main.b9352e11.js.map",
+    "static/js/2.bcdc8df9.chunk.js": "/conding-ninja-events-page-replica/static/js/2.bcdc8df9.chunk.js",
+    "static/js/2.bcdc8df9.chunk.js.map": "/conding-ninja-events-page-replica/static/js/2.bcdc8df9.chunk.js.map",
+    "index.html": "/conding-ninja-events-page-replica/index.html",
+    "static/css/main.207bd030.chunk.css.map": "/conding-ninja-events-page-replica/static/css/main.207bd030.chunk.css.map",
+    "static/js/2.bcdc8df9.chunk.js.LICENSE.txt": "/conding-ninja-events-page-replica/static/js/2.bcdc8df9.chunk.js.LICENSE.txt",
+    "static/media/all-events-logo.96f8e289.svg": "/conding-ninja-events-page-replica/static/media/all-events-logo.96f8e289.svg",
+    "static/media/career-camp.5476c4e6.svg": "/conding-ninja-events-page-replica/static/media/career-camp.5476c4e6.svg",
+    "static/media/cn-logo.d603a965.svg": "/conding-ninja-events-page-replica/static/media/cn-logo.d603a965.svg",
+    "static/media/coding-logo.5593aefd.svg": "/conding-ninja-events-page-replica/static/media/coding-logo.5593aefd.svg",
+    "static/media/events.css": "/conding-ninja-events-page-replica/static/media/event-background.297dfda6.png",
+    "static/media/new-tag.ce446fd2.svg": "/conding-ninja-events-page-replica/static/media/new-tag.ce446fd2.svg",
+    "static/media/register-btn.79d8fc45.png": "/conding-ninja-events-page-replica/static/media/register-btn.79d8fc45.png",
+    "static/media/webinars-logo.b6419fcb.svg": "/conding-ninja-events-page-replica/static/media/webinars-logo.b6419fcb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9352e11.js",
+    "static/js/2.bcdc8df9.chunk.js",
+    "static/css/main.207bd030.chunk.css",
+    "static/js/main.80ab4a88.chunk.js"
+  ]
+}
