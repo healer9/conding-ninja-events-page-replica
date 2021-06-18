@@ -84,8 +84,9 @@ const EventCard = ({ events, isLoading, subCategory }) => {
                         </div>
                         <div className="registration-div">
                             <div className="registration-container">
-                                {event.registered_users.top_users.map(user => (
+                                {event.registered_users.top_users.map((user, index) => (
                                     <Avatar
+                                        key={index}
                                         style={{ "marginRight": "3px", "marginBottom": "2px" }}
                                         round={true}
                                         size="20"

@@ -55,6 +55,28 @@ const Events = () => {
             setTags(tagName.data.data.tags)
         }
         fetchTags()
+
+        let getCatDiv = document.getElementsByClassName("tabs")
+        // console.log(getCatDiv)
+        for (let i = 0; i < getCatDiv.length; i++) {
+            getCatDiv[i].addEventListener("click", function () {
+                let current = document.getElementsByClassName("cat-active")
+                current[0].className = current[0].className.replace(" cat-active", "")
+                this.className += " cat-active"
+            })
+        }
+
+        let getDiv = document.getElementsByClassName("cat-btn")
+        // console.log(getDiv)
+
+        for (let i = 0; i < getDiv.length; i++) {
+            getDiv[i].addEventListener("click", function () {
+                let current = document.getElementsByClassName("cat-btn-active")
+                current[0].className = current[0].className.replace(" cat-btn-active", "")
+                this.className += " cat-btn-active"
+            })
+        }
+
     }, [])
 
     const handleTags = (tag) => {
@@ -79,39 +101,17 @@ const Events = () => {
 
     const subCategories = ['Upcoming', 'Archived', 'All Time Favorites']
 
-
     const handleCategoryClick = (category) => {
         let cat = category.target.innerText
         cat = cat.split(' ').join('_')
         //console.log(cat)
         setEventCategory(cat)
-
-        let getCatDiv = document.getElementsByClassName("tabs")
-
-        for (let i = 0; i < getCatDiv.length; i++) {
-            getCatDiv[i].addEventListener("click", function () {
-                let current = document.getElementsByClassName("cat-active")
-                current[0].className = current[0].className.replace(" cat-active", "")
-                this.className += " cat-active"
-            })
-        }
     }
 
     const handleSubCategoryClick = (subCategory) => {
         let subCat = subCategory.target.innerText
         subCat = subCat.split(' ').join('_')
         setSubCategory(subCat)
-
-        let getDiv = document.getElementsByClassName("cat-btn")
-        // console.log(getDiv)
-
-        for (let i = 0; i < getDiv.length; i++) {
-            getDiv[i].addEventListener("click", function () {
-                let current = document.getElementsByClassName("cat-btn-active")
-                current[0].className = current[0].className.replace(" cat-btn-active", "")
-                this.className += " cat-btn-active"
-            })
-        }
     }
 
     //  Get current events
@@ -168,6 +168,7 @@ const Events = () => {
                             <div className="tags-wrapper">
                                 {tags.map((tag) => {
                                     return <div
+                                        key={tag}
                                         className="tags"
                                         onClick={handleTags}
                                     >
