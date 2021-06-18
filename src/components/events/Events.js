@@ -23,8 +23,6 @@ const Events = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const [eventsPerPage] = useState(20);
 
-
-
     useEffect(() => {
         setIsLoading(true)
 

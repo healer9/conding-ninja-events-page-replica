@@ -14,29 +14,12 @@ const EventCard = ({ events, isLoading, subCategory }) => {
         "fontWeight": "600"
     }
 
-    const handleClick = (e) => {
-        let str = e.target.getAttribute("alt")
-        str = str.replace(/\W/g, ' ')
-        str = str.replace(/\s+/g, ' ').trim()
-        str = str.split(' ').join('-')
-
-        let path = ""
-        for (let i = 0; i < str.length; i++) {
-            if (str[i] !== '-')
-                path += str[i].toLowerCase()
-            else
-                path += str[i]
-        }
-
-        window.open(`https://www.codingninjas.com/events/${path}`)
-    }
-
-
     return (
         <div className="event-lists">
             {events.length === 0 ? <h1>No Events Found</h1>
                 : events.map(event => (
                     <div
+                        onClick={() => window.open(`https://www.codingninjas.com/events/${event.slug}`)}
                         key={event.id}
                         className="event-card"
                     >
@@ -100,7 +83,6 @@ const EventCard = ({ events, isLoading, subCategory }) => {
                             </div>
                             {subCategory === 'Upcoming' && <div>
                                 <img
-                                    onClick={handleClick}
                                     src={Register} alt={event.name}
                                     style={{ "height": "30px" }} />
                             </div>}
@@ -108,7 +90,7 @@ const EventCard = ({ events, isLoading, subCategory }) => {
                     </div>
                 ))
             }
-        </div >
+        </div>
     )
 }
 
