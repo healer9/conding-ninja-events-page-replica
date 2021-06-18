@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/conding-ninja-events-page-replica/static/css/main.0a3896da.chunk.css",
-    "main.js": "/conding-ninja-events-page-replica/static/js/main.df6ef25d.chunk.js",
-    "main.js.map": "/conding-ninja-events-page-replica/static/js/main.df6ef25d.chunk.js.map",
+    "main.js": "/conding-ninja-events-page-replica/static/js/main.d0fdfa5a.chunk.js",
+    "main.js.map": "/conding-ninja-events-page-replica/static/js/main.d0fdfa5a.chunk.js.map",
     "runtime-main.js": "/conding-ninja-events-page-replica/static/js/runtime-main.b9352e11.js",
     "runtime-main.js.map": "/conding-ninja-events-page-replica/static/js/runtime-main.b9352e11.js.map",
     "static/js/2.bcdc8df9.chunk.js": "/conding-ninja-events-page-replica/static/js/2.bcdc8df9.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.b9352e11.js",
     "static/js/2.bcdc8df9.chunk.js",
     "static/css/main.0a3896da.chunk.css",
-    "static/js/main.df6ef25d.chunk.js"
+    "static/js/main.d0fdfa5a.chunk.js"
   ]
 }
